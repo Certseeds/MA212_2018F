@@ -11,7 +11,7 @@
 
 2. 所以全部材料采用CC BY-NC-SA 4.0(or any later version)协议.
 
-3. 资料不在repo中,而在release中,请到[最新Realese](https://github.com/Certseeds/CS205_C_CPP/releases/latest)中下载.
+3. 资料不在repo中,而在release中,请到[最新Realese](https://github.com/Certseeds/MA212_2018F/releases/latest)中下载.
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange)][cc_by_nc_sa_4_0]  
 
