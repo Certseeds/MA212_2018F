@@ -15,9 +15,9 @@
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange)][cc_by_nc_sa_4_0]  
 
-[![code size](https://img.shields.io/github/languages/code-size/Certseeds/tricks?color=%230099CC)]() 
+[![code size](https://img.shields.io/github/languages/code-size/Certseeds/MA212_2018F?color=%230099CC)]() 
 
-[![repo size](https://img.shields.io/github/repo-size/Certseeds/tricks?color=%23CC9900)]()
+[![repo size](https://img.shields.io/github/repo-size/Certseeds/MA212_2018F?color=%23CC9900)]()
 
 [![CC BY-SA 4.0][cc_by_nc_sa_4_0_image]][cc_by_nc_sa_4_0]
 
