@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 10:33:44
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-17 11:51:55
+ * @LastEditTime: 2021-04-17 12:14:27
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  * @OriginName: "Middle-Term Examination Questions"
  -->
@@ -43,9 +43,9 @@ Part One Select one from the given four options (4 marks each question, in total
 
 ### 1-3
 
-*Chinese*: 设随机变量$X ~ b(2,p)$,$Y ~ b(3,p)$,若$P(x \geq 1) = \frac{5}{9}$ ,则$P(Y \geq 1) =$
+*Chinese*: 设随机变量$X \sim b(2,p)$,$Y \sim b(3,p)$,若$P(x \geq 1) = \frac{5}{9}$ ,则$P(Y \geq 1) =$
 
-*English*: Assume the random variables$X ~ b(2,p)$,$Y ~ b(3,p)$.    If $P(x \geq 1) = \frac{5}{9}$,Then $P(Y \geq 1) =$
+*English*: Assume the random variables$X \sim b(2,p)$,$Y \sim b(3,p)$.    If $P(x \geq 1) = \frac{5}{9}$,Then $P(Y \geq 1) =$
 
 | Choice |                 |
 | :----- | --------------: |
@@ -56,9 +56,9 @@ Part One Select one from the given four options (4 marks each question, in total
 
 ### 1-4
 
-*Chinese*:设$X_i(i =1,2,3)$为三个正态随机变量,且$x_1 ~ N(0,1)$,$x_2 ~ N(0,2^2)$, $x_3 ~ N(0,3^2)$,记$p_i = P(-2 < X_i < 2), i=1,2,3$.则\_\_\_\_\_
+*Chinese*:设$X_i(i =1,2,3)$为三个正态随机变量,且$x_1 \sim N(0,1)$,$x_2 \sim N(0,2^2)$, $x_3 \sim N(0,3^2)$,记$p_i = P(-2 < X_i < 2), i=1,2,3$.则\_\_\_\_\_
 
-*English*:Let $X_i(i =1,2,3)$ be three normal distributed random variables $x_1 ~ N(0,1)$,$x_2 ~ N(0,2^2)$, $x_3 ~ N(0,3^2)$ .Let $p_i = P(-2 < X_i < 2), i=1,2,3$, then\_\_\_\_\_
+*English*:Let $X_i(i =1,2,3)$ be three normal distributed random variables $x_1 \sim N(0,1)$,$x_2 \sim N(0,2^2)$, $x_3 \sim N(0,3^2)$ .Let $p_i = P(-2 < X_i < 2), i=1,2,3$, then\_\_\_\_\_
 
 | Choice |                   |
 | :----- | ----------------: |
@@ -119,9 +119,9 @@ $P(\overline{A} \cup \overline{B}) =$\_\_\_\_\_\_.
 
 ### 2-5
 
-*Chinese*: 设随机变量$X ~ EXP( \lambda )$服从指数分布.则$P(3 < X < 4 | 2 < X) =$\_\_\_\_\_\_\_. 当参数 $\lambda =$ \_\_\_\_\_时这个概率取到最大值.
+*Chinese*: 设随机变量$X \sim EXP( \lambda )$服从指数分布.则$P(3 < X < 4 | 2 < X) =$\_\_\_\_\_\_\_. 当参数 $\lambda =$ \_\_\_\_\_时这个概率取到最大值.
 
-*English*: Suppose random variable $X$ satisfies exponential distribution $X ~ EXP( \lambda )$.$P(3 < X < 4 | 2 < X) =$\_\_\_\_\_\_\_. When the parameter $\lambda =$ \_\_\_\_\, this probability reaches its maximum.
+*English*: Suppose random variable $X$ satisfies exponential distribution $X \sim EXP( \lambda )$.$P(3 < X < 4 | 2 < X) =$\_\_\_\_\_\_\_. When the parameter $\lambda =$ \_\_\_\_\, this probability reaches its maximum.
 
 ### 2-6
 
@@ -131,15 +131,15 @@ $P(\overline{A} \cup \overline{B}) =$\_\_\_\_\_\_.
 
 ### 2-7
 
-*Chinese*: 设$X ~ N( \mu ,\sigma^2 )$,$Y ~ N(2 \mu ,\sigma^2 )$是相互独立的正态分布的随机变量且$P(X - Y \geq 2) = \frac{1}{2}$ 则$\mu =$\_\_\_\_\_.
+*Chinese*: 设$X \sim N( \mu ,\sigma^2 )$,$Y \sim N(2 \mu ,\sigma^2 )$是相互独立的正态分布的随机变量且$P(X - Y \geq 2) = \frac{1}{2}$ 则$\mu =$\_\_\_\_\_.
 
-*English*: Let $X ~ N( \mu ,\sigma^2 )$,$Y ~ N(2 \mu ,\sigma^2 )$ be two independent normal distributed random variables and $P(X - Y \geq 2) = \frac{1}{2}$ .Then $\mu =$\_\_\_\_\_.
+*English*: Let $X \sim N( \mu ,\sigma^2 )$,$Y \sim N(2 \mu ,\sigma^2 )$ be two independent normal distributed random variables and $P(X - Y \geq 2) = \frac{1}{2}$ .Then $\mu =$\_\_\_\_\_.
 
 ### 2-8
 
-*Chinese*: 设$X ~ P( \lambda )$服从参数为$\lambda$的泊松分布,则$Y=X^3$的频率函数为\_\_\_\_\_.
+*Chinese*: 设$X \sim P( \lambda )$服从参数为$\lambda$的泊松分布,则$Y=X^3$的频率函数为\_\_\_\_\_.
 
-*English*: Suppose $X ~ P( \lambda )$ has a Poisson distribution with parameter $\lambda$. Then the frequency function for $Y=X^3$ is \_\_\_\_\_.
+*English*: Suppose $X \sim P( \lambda )$ has a Poisson distribution with parameter $\lambda$. Then the frequency function for $Y=X^3$ is \_\_\_\_\_.
 
 ## 第三部分问答题(每题 10 分,总共 60 分)
 
@@ -188,7 +188,7 @@ $$f(x,y) = 0 \qquad otherwise$$
 
 ### 3-4
 
-*Chinese*:某地区 18 岁女青年的血压(收缩压,以 mmHg 计)服从$N ~ (110,12^2)$,在该地区任选一 18 岁女青年,测量她的血压$𝑋$.确定最小的$x$,使得$P(X > x) \leq 0.05$.(可能用到的参数:$\Theta(1.645) = 0.95$)
+*Chinese*:某地区 18 岁女青年的血压(收缩压,以 mmHg 计)服从$N \sim (110,12^2)$,在该地区任选一 18 岁女青年,测量她的血压$𝑋$.确定最小的$x$,使得$P(X > x) \leq 0.05$.(可能用到的参数:$\Theta(1.645) = 0.95$)
 
 *English*: Suppose the blood pressure (systolic pressure, measured in mmHg) of 18 years old women somewhere has a normal distribution 𝑁 110, 122 .Randomly selecta 18 years old woman and measure her systolic pressure $X$. Find the smallest $x$ so that $P(X > x) \leq 0.05$.(it might be used $\Theta(1.645) = 0.95$)
 
