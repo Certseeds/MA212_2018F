@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 10:33:44
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-17 12:14:27
+ * @LastEditTime: 2021-04-17 13:00:46
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  * @OriginName: "Middle-Term Examination Questions"
  -->
@@ -194,7 +194,7 @@ $$f(x,y) = 0 \qquad otherwise$$
 
 ### 3-5
 
-*Chinese*: 设随机变量 $(X,Y)$ 在区域G上服从均匀分布,其中G由$x-y=0,x+y=0,y=0$围成.
+*Chinese*: 设随机变量 $(X,Y)$ 在区域G上服从均匀分布,其中G由$x-y=0,x+y=2,y=0$围成.
 
 + (1) 求边际密度$f_X(x)$
 + (2) 求条件密度$f_{X|Y}(x|y)$

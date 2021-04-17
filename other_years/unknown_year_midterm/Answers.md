@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 10:33:44
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-17 12:14:18
+ * @LastEditTime: 2021-04-17 13:21:31
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  * @OriginName: "Middle-Term Examination Questions"
  -->
@@ -181,9 +181,9 @@ $$P(Y=1) = C_3^1 \frac{8}{27} \ast (1 - (\frac{8}{27}))^2 = 0.44$$
 
 *Answer*:
 
-+ $\sum{p_{ij}} = 1$,So,$a+b=\frac{2}{9}$
++ (1) $\sum{p_{ij}} = 1$,So,$a+b=\frac{2}{9}$
 
-+ $X$ and $Y$独立,$P(x=i,y=j) = P(x=i)P(y=j)$
++ (2) $X$ and $Y$独立,$P(x=i,y=j) = P(x=i)P(y=j)$
 
 $$P(X = 1) = \frac{1}{2}, P(Y=0) = \frac{2}{9}+a,P(X=1,Y=0) = \frac{1}{6}$$
 So,
@@ -206,15 +206,19 @@ $$f(x,y) = 0 \qquad otherwise$$
 
 *Answer*:
 
-+ $\iint f(x,y) dxdy = 1$, $\int_{0}^{1}\int_{x^2}^{1}cx^{2}ydxdy=1$,so, $c = 15$
++ (1) $\iint f(x,y) dxdy = 1$, $\int_{0}^{1}\int_{x^2}^{1}cx^{2}ydxdy=1$,so, $c = 15$
 
-+ $P(X>Y) = \int_{0}^{1}\int_{x^2}^{x}15x^2y dxdy=\frac{3}{7}$
++ (2) $P(X>Y) = \int_{0}^{1}\int_{x^2}^{x}15x^2y dxdy=\frac{3}{7}$
 
 ### 3-4
 
 *Chinese*:某地区 18 岁女青年的血压(收缩压,以 mmHg 计)服从$N \sim (110,12^2)$,在该地区任选一 18 岁女青年,测量她的血压$𝑋$.确定最小的$x$,使得$P(X > x) \leq 0.05$.(可能用到的参数:$\Theta(1.645) = 0.95$)
 
 *English*: Suppose the blood pressure (systolic pressure, measured in mmHg) of 18 years old women somewhere has a normal distribution 𝑁 110, 122 .Randomly selecta 18 years old woman and measure her systolic pressure $X$. Find the smallest $x$ so that $P(X > x) \leq 0.05$.(it might be used $\Theta(1.645) = 0.95$)
+
+*Answer*:
+
+若$P(\{X > x \}) \leq 0.05$,既$1 - P(\{X \leq x \}) \leq 0.05$,既$\Theta(\frac{x-110}{12})>0.95$,故$\frac{x-110}{12} \geq 1.645$,最后,$x \geq 129.74$
 
 ### 3-5
 
@@ -223,10 +227,40 @@ $$f(x,y) = 0 \qquad otherwise$$
 + (1) 求边际密度$f_X(x)$
 + (2) 求条件密度$f_{X|Y}(x|y)$
 
-*English*: Suppose a two-dimensional random variable $(X,Y)$ is uniformly distributed in the region G where G is formed by the three lines $x-y=0,x+y=0,y=0$.
+*English*: Suppose a two-dimensional random variable $(X,Y)$ is uniformly distributed in the region G where G is formed by the three lines $x-y=0,x+y=2,y=0$.
 
 + (1) Find the marginal density function$f_X(x)$
 + (2) Find the conditional density function$f_{X|Y}(x|y)$
+
+*Answer*:
+
++ (1)
+
+![3-5](./image/3_5.gif)
+
+$(X,Y)$的联合概率密度为
+
+$$f(x,y) = 1,\qquad (X,Y) \in 交叉三角形$$
+$$f(x,y) = 0,\qquad otherwise$$
+
+then
+
+$$f_{X}(x) = \int_{-\infty}^{+\infty}f(x,y)dy$$
+
+so,
+$$f_{X}(x) = \int_{0}^{x}1dy = x \qquad 0 < x \leq 1$$
+$$f_{X}(x) = \int_{0}^{2-x}1dy = 2-x \qquad 1 < x \leq 2$$
+$$f_{X}(x) = 0 \qquad othewise$$
+
++ (2)
+
+$$f_{Y}(y) = \int_{-\infty}^{+\infty}f(x,y)dx = \int_{y}^{2-y}1dx = 2-2y$$
+$$f_{Y}(y) = \int_{-\infty}^{+\infty}f(x,y)dx= 0 \qquad otherwise$$
+
+so, when $0<y<1$,
+
+$$f_{X|Y}(x|y) = \frac{f(x,y)}{f_{Y}(y)} = \frac{1}{2-2y}, y<x<2-y$$
+$$f_{X|Y}(x|y) = \frac{f(x,y)}{f_{Y}(y)} = 其他?$$
 
 ### 3-6
 
@@ -250,3 +284,23 @@ $$Y = 1 \qquad 2 \leq X$$
 
 + (2)求概率$P(X \leq Y)$
 + (2) Compute $P(X \leq Y)$
+
+*Answer*:
+
++ (1)
+
+$P(\{1 \leq Y \leq 2\}) = 1$,计$Y$的分布函数为$F_{Y}(y)$,则
+
+$$F_{Y}(y) = 0 \qquad y < 1$$
+
+$$F_{Y}(y) = 1 \qquad 2 \leq y$$
+
+when $1 \leq y < 2$,then
+
+$$F_{Y}(y) =P\{Y \leq y \} =P\{Y = 1\} + P\{1 < Y \leq y\}$$
+$$=P\{X \geq 2\} + P\{1 < X \leq y\}$$
+$$=\int_{2}^{3}\frac{x^2}{9}dx + \int_{1}^{y}\frac{x^2}{9}dx = \frac{y^3+18}{27}$$
+
++ (2)
+
+$P\{X \leq Y\} = P\{X < 2\} = \int_{0}^{2}\frac{x^{2}}{9}dx=\frac{8}{27}$
