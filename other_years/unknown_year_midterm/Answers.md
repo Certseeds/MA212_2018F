@@ -4,12 +4,14 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 10:33:44
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-17 11:51:55
+ * @LastEditTime: 2021-04-17 12:11:45
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  * @OriginName: "Middle-Term Examination Questions"
  -->
 
 # Unknown Year
+
+## Part 1,2 Do not have answers
 
 ## 第一部分选择题(每题 4 分,总共 20 分)
 
@@ -154,9 +156,15 @@ $P(\overline{A} \cup \overline{B}) =$\_\_\_\_\_\_.
 $$f(x,y) = 3x^2 \qquad x \in (0,1)$$
 $$f(x,y) = 0 \qquad x \notin (0,1)$$
 
+*Answer*:
+
+$Y ~ B(3,p), p = \int_0^{\frac{2}{3}} 3x^2 dx = \frac{8}{27}$
+
+$$P(Y=1) = C_3^1 \frac{8}{27} \ast (1 - (\frac{8}{27}))^2 = 0.44$$
+
 ### 3-2
 
-*Chinese*:$(X,Y)$是两个离散随机变量,有如下联合概率分布
+*Chinese*:$(X,Y)$是两个离散随机变量,有如下联合概率分布,求
 
 + (1)$a$ 与 $b$ 存在的关系
 + (2)若 $X$ 与 $Y$ 独立,求 $a$ 与 $b$ 的值.
@@ -170,6 +178,16 @@ $$f(x,y) = 0 \qquad x \notin (0,1)$$
 | :---: | :-----------: | :-----------: | :------------: |
 |   0   | $\frac{1}{6}$ |       a       | $\frac{1}{18}$ |
 |   1   | $\frac{1}{3}$ | $\frac{2}{9}$ |       b        |
+
+*Answer*:
+
++ $\sum{p_{ij}} = 1$,So,$a+b=\frac{2}{9}$
+
++ $X$ and $Y$独立,$P(x=i,y=j) = P(x=i)P(y=j)$
+
+$$P(X = 1) = \frac{1}{2}, P(Y=0) = \frac{2}{9}+a,P(X=1,Y=0) = \frac{1}{6}$$
+So,
+$$a=\frac{1}{9},b=\frac{1}{9}$$
 
 ### 3-3
 
@@ -185,6 +203,12 @@ $$f(x,y) = 0 \qquad x \notin (0,1)$$
 
 $$f(x,y) = cx^2y \qquad x^2 \leq y \leq 1$$
 $$f(x,y) = 0 \qquad otherwise$$
+
+*Answer*:
+
++ $\iint f(x,y) dxdy = 1$, $\int_{0}^{1}\int_{x^2}^{1}cx^{2}ydxdy=1$,so, $c = 15$
+
++ $P(X>Y) = \int_{0}^{1}\int_{x^2}^{x}15x^2y dxdy=\frac{3}{7}$
 
 ### 3-4
 
