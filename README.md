@@ -4,9 +4,10 @@
  * @Author: nanoseeds
  * @Date: 2020-09-06 11:50:36
  * @LastEditors: nanoseeds
- * @LastEditTime: 2020-09-06 11:55:10
+ * @LastEditTime: 2021-04-17 11:48:51
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
+
 1. 因为是数学课,所以没代码,全都是扫描的图片.
 
 2. 所以全部材料采用CC BY-NC-SA 4.0(or any later version)协议.
