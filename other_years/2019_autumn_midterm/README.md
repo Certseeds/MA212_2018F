@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-18 18:52:32
+ * @LastEditTime: 2021-04-18 18:54:25
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -190,6 +190,9 @@ $$f(x,y) = 0, \qquad otherwise$$
 
 + (1) $Z$的概率密度函数 $f_{Z}(z)$
 + (2) 条件密度函数 $f_{Y|X}(y|x)$
+
+$$f(x,y) = 3y,0 < x < y < 1$$
+$$f(x,y) = 0, \qquad otherwise$$
 
 *English*: Assume the joint density function of two dimensional as above, r.v. $(X,Y)$ is and define the random variable $Z = X - Y$.Find：
 
