@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-18 13:55:24
+ * @LastEditTime: 2021-04-18 19:04:28
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -158,3 +158,23 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 *English*: Suppose normal distributed random variables $X \sim N(0,1)$ and $Y \sim N(1,1)$ are independent, then the distribution for $X + Y$ is \_\_\_\_\_\_, $P(X + Y < 1) =$ \_\_\_\_\_\_.
 
 *Answer*: $N(1,2), \frac{1}{2}$
+
+### 第三部分 问答题 (每题 10 分,总共 60 分)
+
+Part Three Questions and Answers (10 marks each question, in total 60 marks)
+
+#### 3-1
+
+*Chinese*: 某射击小组有 $20$ 名射手,其中一级射手 $4$ 人,二级 $8$ 人,三级 $7$ 人,四级 $1$ 人.各级射手能通过选拔进入比赛的概率依次为 $0.9,0.7,0.5,0.2$.求任选一名射手能通过选拔进入比赛的概率.
+
+*English*: A shooting team has $20$  shooters, of whom $4$ are in the first level,$8$ are in the second level, $7$ are in the third level, and $1$ is in the fourth level. The probability of each level of the shooters entering the competition through selection is $0.9, 0.7,0.5, 0.2$. Compute the probability that a randomly selected shooter could enter the competition.
+
+*Answer*: 解 记事件 $B = \{所选射手能进入比赛\}$, A_{i}= $\{所选射手为第 i 级\},i = 1,2,3,4$ .已知
+
+$$ P(A_{1}) = \frac{4}{20},P(A_{2}) = \frac{8}{20},P(A_{3}) = \frac{7}{20} , P(A_{4}) = \frac{1}{20} $$
+
+$$P(B|A_{1})=0.9,P(B|A_{2})=0.7,P(B|A_{3})=0.5,P(B|A_{4})=0.2$$
+
+用全概率公式,则所求概率为
+
+$$P(B) = \sum_{i=1}^{4} P(A_{i}) \cdot P(B|A_{i}) = \frac{4 \ast 0.9}{20}+\frac{8 \ast 0.7}{20}+\frac{7 \ast 0.5}{20}+\frac{1 \ast 0.2}{20} = 0.645$$
