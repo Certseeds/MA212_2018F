@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-18 13:51:57
+ * @LastEditTime: 2021-04-18 18:52:32
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -12,7 +12,7 @@
 
 ## 2019-2020 学年秋季学期期中考试卷
 
-本试卷共三大部分,满分 100 分(考试结束后请将试卷、答题本、草稿纸一起交给监考老师)
+本试卷共三大部分,满分 100 分(考试结束后请将试卷,答题本,草稿纸一起交给监考老师)
 
 ### 第一部分 选择题(每题 4 分,总共 20 分) Select one from the given four options
 
@@ -132,3 +132,66 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 *Chinese*: 设正态分布的随机变量 $X \sim N(0,1)$和$Y \sim N(1,1)$相互独立, $X + Y$的分布是\_\_\_\_\_,$P(X + Y < 1) =$ \_\_\_\_\_\_.
 
 *English*: Suppose normal distributed random variables $X \sim N(0,1)$ and $Y \sim N(1,1)$ are independent, then the distribution for $X + Y$ is \_\_\_\_\_\_, $P(X + Y < 1) =$ \_\_\_\_\_\_.
+
+### 第三部分 问答题（每题 10 分,总共 60 分）
+
+Part Three Questions and Answers (10 marks each question, in total 60 marks)
+
+#### 3-1
+
+*Chinese*: 某射击小组有 $20$ 名射手,其中一级射手 $4$ 人,二级 $8$ 人,三级 $7$ 人,四级 $1$ 人.各级射手能通过选拔进入比赛的概率依次为 $0.9,0.7,0.5,0.2$.求任选一名射手能通过选拔进入比赛的概率.
+
+*English*: A shooting team has $20$  shooters, of whom $4$ are in the first level,$8$ are in the second level, $7$ are in the third level, and $1$ is in the fourth level. The probability of each level of the shooters entering the competition through selection is $0.9, 0.7,0.5, 0.2$. Compute the probability that a randomly selected shooter could enter the competition.
+
+### 3-2
+
+*Chinese*: 对以往数据分析结果表明,当机器调整得良好时,产品的合格率为 $0.9$; 而当机器发生某种故障时,产品的合格率为 $0.6$.每天早上机器开动时,机器调整良好的概率为 $0.95$.试求：已知某日早上的第一件产品是合格品时,机器调整得良好的概率.
+
+*English*: According to the collected data analysis, the passing rate of their products is 0.9 when the machine is well adjusted; while the passing rate is 0.6 when the machine is malfunctioned. The machine starts every day in the morning with 0.95 probability that it is well adjusted. If the first product produced in the morning is qualified, what is the probability that the machine is well adjusted today?
+
+### 3-3
+
+*Chinese*: 口袋中装有 $5$ 个球,分别编号为 $1,2,3,4,5$,从中任取 $3$ 个球,将取出的 $3$ 个球中的最大编号记为 $X$.
+
++ (1) 求随机变量 $X$ 的频率函数；
++ (2) 求随机变量 $X$ 的分布函数.
+
+*English*: Suppose there are $5$ balls in a bag which are labeled $1, 2, 3, 4, 5$. Take out $3$ balls from the bag and let $X$ denote the largest number among the balls taken out.
+
++ (1) Find the frequency function of $X$.
++ (2) Find the cumulative distribution function of $X$.
+
+### 3-4
+
+*Chinese*: 设二维随机变量 $(X,Y)$的联合密度函数如下,试求
+
++ (1) 常数 $k$ 的值;
++ (2) $(X,Y)$的联合分布函数$F(x,y)$
++ (3) 计算$P(0 < x \leq 1,0 < Y \leq 2)$
+
+$$f(x,y) = ke^{-(3x+4y)},x>0,y>0$$
+$$f(x,y) = 0, \qquad otherwise$$
+
+*English*: Suppose the two-dimensional random variable $(X,Y)$ has the joint density function above
+
++ (1) Find the constant $k$.
++ (2) Find the joint distribution function $F(x,y)$for $(X,Y)$.
++ (3) Compute $P(0 < x \leq 1,0 < Y \leq 2)$
+
+### 3-5
+
+*Chinese*: 设随机变量 $(X,Y)$ 相互独立,且 $X \sim U(0,1),Y \sim U(0,1)$,求 $Z = X + Y$ 的密度函数.
+
+*English*: Given two independent random variables $X,Y$, both are uniformly distributed $X \sim U(0,1),Y \sim U(0,1)$. What is the density function for  $Z = X + Y$ ?
+
+### 3-6
+
+*Chinese*: 设二维随机变量(X, Y)的联合密度函数如下,又设随机变量 $Z = X - Y$,求：
+
++ (1) $Z$的概率密度函数 $f_{Z}(z)$
++ (2) 条件密度函数 $f_{Y|X}(y|x)$
+
+*English*: Assume the joint density function of two dimensional as above, r.v. $(X,Y)$ is and define the random variable $Z = X - Y$.Find：
+
++ (1) the density function $f_{Z}(z)$ for $Z$;
++ (2) the conditional density function $f_{Y|X}(y|x)$
