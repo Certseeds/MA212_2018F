@@ -133,7 +133,7 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 
 *English*: Suppose normal distributed random variables $X \sim N(0,1)$ and $Y \sim N(1,1)$ are independent, then the distribution for $X + Y$ is \_\_\_\_\_\_, $P(X + Y < 1) =$ \_\_\_\_\_\_.
 
-### 第三部分 问答题（每题 10 分,总共 60 分）
+### 第三部分 问答题 (每题 10 分,总共 60 分)
 
 Part Three Questions and Answers (10 marks each question, in total 60 marks)
 
