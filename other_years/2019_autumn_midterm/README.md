@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-17 19:04:34
+ * @LastEditTime: 2021-04-18 13:50:12
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -59,7 +59,7 @@
 
 *Chinese*: 设 $X$ 来自于指数分布 $Exp(\lambda)$, $\lambda$ > 0, 那么概率$P(X > 2 | X > 1)$的值为
 
-*English*: If $X$ follows $Exp(\lambda)$, $\lambda$ > 0, then the probability of 𝑃𝑃(𝑋𝑋 > 2|𝑋𝑋 > 1) is
+*English*: If $X$ follows $Exp(\lambda)$, $\lambda$ > 0, then the probability of PP($X$ > 2|$X$ > 1) is
 
 | Choice |            |
 | :----- | ---------: |
@@ -80,3 +80,55 @@
 | B      | 存在点$x_{0}$ ,使得$F(x_{0}) > 1$成立,There is a point $x_{0}$ such that $F(x_{0}) > 1$ holds |
 | C      |                                对任意 $x > a$ 有$F(x) = 1$,For any $x > a$, $F(x) = 1$ holds$ |
 | D      |                                对任意 $x > a$ 有$F(x) = 0$,For any $x > a$, $F(x) = 0$ holds$ |
+
+### 第二部分 填空题(每空 2 分,总共 20 分)
+
+Part Two Fill in the boxes for each Question (2 marks each box, in total 20 marks)
+
+#### 2-1
+
+*Chinese*: 掷一枚公平的骰子(显然,六面骰),得到的点数为$a$. 则方程$x^{2} + 2x + a = 0$有实根的概率为\_\_\_\_\_\_.
+
+*English*: Roll a fair dice to get a number $a$. The probability that the equation$x^{2} + 2x + a = 0$ allows for real roots is \_\_\_\_\_\_.
+
+#### 2-2
+
+*Chinese*: 在一条线段上随机取三个点$X_{1},X_{2},X_{3}$则点$X_{2}$落在$X_{1}$和$X_{3}$之间的概率为\_\_\_\_.
+
+*English*: Three points $X_{1},X_{2},X_{3}$ are selected at random on a line segment. The probability that $X_{2}$ lies between $X_{1}$ and $X_{3}$ is \_\_\_\___.
+
+#### 2-3
+
+*Chinese*: 若事件$A$和$B$满足$P(A) = P(B) = \frac{1}{2}$, $P(A \cup B) = \frac{2}{3}$,则$P(\overline{A} \cup \overline{B})=$\_\_\_\_\_\_\_.
+
+*English*: Suppose two events $A$ and $B$ satisfy $P(A) = P(B) = \frac{1}{2}$, $P(A \cup B) = \frac{2}{3}$, then $P(\overline{A} \cup \overline{B})=$\_\_\_\_\_\_\_.
+
+#### 2-4
+
+*Chinese*: 设$X$和$Y$为服从几何分布 $Geo(p)$ 相互独立的随机变量,则$P(X = Y)=$\_\_\_\_\_\_.
+
+*English*: Let $X$ and $Y$ be independent and follow Geometric distribution $Geo(p)$. P(X = Y)=$\_\_\_\_\_\_.
+
+#### 2-5
+
+*Chinese*: 设某本书一页上的拼写错误服从泊松分布 $P(0.2)$,页与页之间出错的数量彼此独立. 则书中一篇10页的文章拼写错误不小于两个的概率是\_\_\_\_\_\_.
+
+*English*: The typos on a page of a book follow Poisson distribution $P(0.2)$, and the numbers of errors are independent from page to page. The probability that an article with 10 pages in the book contains no less than two errors is \_\_\_\_\_\_.
+
+#### 2-6
+
+*Chinese*: 设$X \sim N(\mu, {\sigma}^2 )$, $Y = aX + b, a \neq 0$ 则$Y$的分布是\_\_\_\_\_\_\_.
+
+*English*: Let $X \sim N(\mu, {\sigma}^2 )$,$Y = aX + b, a \neq 0$. Then the distribution for $Y$ is\_\_\_\_\_\_.
+
+#### 2-7
+
+*Chinese*: 设随机变量$(X, Y)$的联合密度函数是$f(x,y)=Ce^{-3y},0 < x < y$,则$C =$\_\_\_\_\_\_, $X$和$Y$是否独立？\_\_\_\_\_\_(填是或否)
+
+*English*: Suppose the joint density function for $(X, Y)$ is $f(x,y)=Ce^{-3y},0 < x < y$, then$C =$\_\_\_\_\_\_, judge if $X$ and $Y$ are independent or not? \_\_\_\_\_\_(Yes or No)
+
+#### 2-8
+
+*Chinese*: 设正态分布的随机变量 $X \sim N(0,1)$和$Y \sim N(1,1)$相互独立, $X + Y$的分布是\_\_\_\_\_,$P(X + Y < 1) =$ \_\_\_\_\_\_.
+
+*English*: Suppose normal distributed random variables $X \sim N(0,1)$ and $Y \sim N(1,1)$ are independent, then the distribution for $X + Y$ is \_\_\_\_\_\_, $P(X + Y < 1) =$ \_\_\_\_\_\_.
