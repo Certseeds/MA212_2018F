@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-18 13:51:57
+ * @LastEditTime: 2021-04-18 13:55:24
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -29,6 +29,8 @@
 | C      | $\overline{A}BC \cup A \overline{B} C \cup AB \overline{C}$ |
 | D      |                                           $A \cup B \cup C$ |
 
+*Answer*: B
+
 #### 1-2
 
 *Chinese*: 设 $X \sim N(\mu,\sigma^2)$,其中 $\sigma > 0$,则概率$P(X \leq 1 + \mu)$
@@ -41,6 +43,8 @@
 | B      |       随 $\mu$ 的增大而减小,decreases with the increase of $\mu$ |
 | C      | 随 $\sigma$ 的增大而增大,increases with the increase of $\sigma$ |
 | D      | 随 $\sigma$ 的增大而减小,decreases with the increase of $\sigma$ |
+
+*Answer*: D
 
 #### 1-3
 
@@ -55,6 +59,8 @@
 | C      |     $(1 - F(z))^2$ |
 | D      | $1 - (1 - F(z))^2$ |
 
+*Answer*: D
+
 #### 1-4
 
 *Chinese*: 设 $X$ 来自于指数分布 $Exp(\lambda)$, $\lambda$ > 0, 那么概率$P(X > 2 | X > 1)$的值为
@@ -67,6 +73,8 @@
 | B      | $P(X > 2)$ |
 | C      | $P(X > 1)$ |
 | D      | $P(X > 3)$ |
+
+*Answer*: C
 
 #### 1-5
 
@@ -81,6 +89,8 @@
 | C      |                                对任意 $x > a$ 有$F(x) = 1$,For any $x > a$, $F(x) = 1$ holds$ |
 | D      |                                对任意 $x > a$ 有$F(x) = 0$,For any $x > a$, $F(x) = 0$ holds$ |
 
+*Answer*: C
+
 ### 第二部分 填空题(每空 2 分,总共 20 分)
 
 Part Two Fill in the boxes for each Question (2 marks each box, in total 20 marks)
@@ -91,11 +101,15 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 
 *English*: Roll a fair dice to get a number $a$. The probability that the equation$x^{2} + 2x + a = 0$ allows for real roots is \_\_\_\_\_\_.
 
+*Answer*: $\frac{1}{6}$
+
 #### 2-2
 
 *Chinese*: 在一条线段上随机取三个点$X_{1},X_{2},X_{3}$则点$X_{2}$落在$X_{1}$和$X_{3}$之间的概率为\_\_\_\_.
 
 *English*: Three points $X_{1},X_{2},X_{3}$ are selected at random on a line segment. The probability that $X_{2}$ lies between $X_{1}$ and $X_{3}$ is \_\_\_\___.
+
+*Answer*: $\frac{1}{3}$
 
 #### 2-3
 
@@ -103,11 +117,15 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 
 *English*: Suppose two events $A$ and $B$ satisfy $P(A) = P(B) = \frac{1}{2}$, $P(A \cup B) = \frac{2}{3}$, then $P(\overline{A} \cup \overline{B})=$\_\_\_\_\_\_\_.
 
+*Answer*: $\frac{2}{3}$
+
 #### 2-4
 
 *Chinese*: 设$X$和$Y$为服从几何分布 $Geo(p)$ 相互独立的随机变量,则$P(X = Y)=$\_\_\_\_\_\_.
 
 *English*: Let $X$ and $Y$ be independent and follow Geometric distribution $Geo(p)$. $P(X = Y)=$\_\_\_\_\_\_.
+
+*Answer*: $\frac{p}{2-p}$
 
 #### 2-5
 
@@ -115,11 +133,15 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 
 *English*: The typos on a page of a book follow Poisson distribution $P(0.2)$, and the numbers of errors are independent from page to page. The probability that an article with 10 pages in the book contains no less than two errors is \_\_\_\_\_\_.
 
+*Answer*: $1 - 3e^{-2}$
+
 #### 2-6
 
 *Chinese*: 设$X \sim N(\mu, {\sigma}^2 )$, $Y = aX + b, a \neq 0$ 则$Y$的分布是\_\_\_\_\_\_\_.
 
 *English*: Let $X \sim N(\mu, {\sigma}^2 )$,$Y = aX + b, a \neq 0$. Then the distribution for $Y$ is\_\_\_\_\_\_.
+
+*Answer*: $N(a \mu + b,(a \sigma)^{2})$
 
 #### 2-7
 
@@ -127,8 +149,12 @@ Part Two Fill in the boxes for each Question (2 marks each box, in total 20 mark
 
 *English*: Suppose the joint density function for $(X, Y)$ is $f(x,y)=Ce^{-3y},0 < x < y$, then$C =$\_\_\_\_\_\_, judge if $X$ and $Y$ are independent or not? \_\_\_\_\_\_(Yes or No)
 
+*Answer*: 9,No
+
 #### 2-8
 
 *Chinese*: 设正态分布的随机变量 $X \sim N(0,1)$和$Y \sim N(1,1)$相互独立, $X + Y$的分布是\_\_\_\_\_,$P(X + Y < 1) =$ \_\_\_\_\_\_.
 
 *English*: Suppose normal distributed random variables $X \sim N(0,1)$ and $Y \sim N(1,1)$ are independent, then the distribution for $X + Y$ is \_\_\_\_\_\_, $P(X + Y < 1) =$ \_\_\_\_\_\_.
+
+*Answer*: $N(1,2), \frac{1}{2}$
