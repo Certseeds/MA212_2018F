@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-18 19:04:28
+ * @LastEditTime: 2021-04-19 14:30:47
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -178,3 +178,95 @@ $$P(B|A_{1})=0.9,P(B|A_{2})=0.7,P(B|A_{3})=0.5,P(B|A_{4})=0.2$$
 用全概率公式,则所求概率为
 
 $$P(B) = \sum_{i=1}^{4} P(A_{i}) \cdot P(B|A_{i}) = \frac{4 \ast 0.9}{20}+\frac{8 \ast 0.7}{20}+\frac{7 \ast 0.5}{20}+\frac{1 \ast 0.2}{20} = 0.645$$
+
+### 3-2
+
+*Chinese*: 对以往数据分析结果表明,当机器调整得良好时,产品的合格率为 $0.9$; 而当机器发生某种故障时,产品的合格率为 $0.6$.每天早上机器开动时,机器调整良好的概率为 $0.95$.试求：已知某日早上的第一件产品是合格品时,机器调整得良好的概率.
+
+*English*: According to the collected data analysis, the passing rate of their products is 0.9 when the machine is well adjusted; while the passing rate is 0.6 when the machine is malfunctioned. The machine starts every day in the morning with 0.95 probability that it is well adjusted. If the first product produced in the morning is qualified, what is the probability that the machine is well adjusted today?
+
+*Answer*: 记事件$A=\{时间合格\}$,$B=\{机器调节良好\}$,已知
+
+$$P(B) = 0.95,P(\overline{B}) = 0.05,P(A|B) = 0.95,P(A|\overline{B}) = 0.6$$
+
+由贝叶斯公式
+
+$$P(B|A) = \frac{P(AB)}{P(A)} = \frac{P(B) \cdot P(A|B)}{P(B) \cdot P(A|B) + P(\overline{B}) \cdot P(A|\overline{B})}$$
+
+则
+
+$$P(B|A) = \frac{0.95 \ast 0.9}{0.95 \ast 0.9 + 0.05 \ast 0.6}$$
+
+### 3-3
+
+*Chinese*: 口袋中装有 $5$ 个球,分别编号为 $1,2,3,4,5$,从中任取 $3$ 个球,将取出的 $3$ 个球中的最大编号记为 $X$.
+
++ (1) 求随机变量 $X$ 的频率函数；
++ (2) 求随机变量 $X$ 的分布函数.
+
+*English*: Suppose there are $5$ balls in a bag which are labeled $1, 2, 3, 4, 5$. Take out $3$ balls from the bag and let $X$ denote the largest number among the balls taken out.
+
++ (1) Find the frequency function of $X$.
++ (2) Find the cumulative distribution function of $X$.
+
+*Answer*:
+
++ (1) X的取值有且只有$3,4,5$
+
+$$P(X=3) = \frac{1}{C_{5}^{3}} = 0.1,P(X=4) = \frac{C_{3}^{2}}{C_{5}^{3}} = 0.3,P(X=5) = \frac{C_{4}^{2}}{C_{5}^{3}} = 0.1$$
+
+|   X   |   3   |   4   |   5   |
+| :---: | :---: | :---: | :---: |
+|   P   |  0.1  |  0.3  |  0.6  |
+
++ (2)
+
+显然,$F(x) = P(X \leq x)$
+
+因此,
+
+$$F(x) = P(X \leq 3) = P(\Theta) = 0, \qquad \qquad  \qquad x < 3$$
+
+$$F(x) = P(X \leq 3) = P(X = 3) = 0.1, \qquad \qquad 3 \leq x < 4$$
+
+$$F(x) = P(X \leq 4) = P(X = 3) + P(X = 4) = 0.4, \qquad 4 \leq x < 5$$
+
+$$F(x) = P(X \leq 5) = P(X = 3) + P(X = 4)+ P(X = 5) = 1,  5 \leq x $$
+
+### 3-4
+
+*Chinese*: 设二维随机变量 $(X,Y)$的联合密度函数如下,试求
+
++ (1) 常数 $k$ 的值;
++ (2) $(X,Y)$的联合分布函数$F(x,y)$
++ (3) 计算$P(0 < x \leq 1,0 < Y \leq 2)$
+
+$$f(x,y) = ke^{-(3x+4y)},x>0,y>0$$
+$$f(x,y) = 0, \qquad otherwise$$
+
+*English*: Suppose the two-dimensional random variable $(X,Y)$ has the joint density function above
+
++ (1) Find the constant $k$.
++ (2) Find the joint distribution function $F(x,y)$for $(X,Y)$.
++ (3) Compute $P(0 < x \leq 1,0 < Y \leq 2)$
+
+### 3-5
+
+*Chinese*: 设随机变量 $(X,Y)$ 相互独立,且 $X \sim U(0,1),Y \sim U(0,1)$,求 $Z = X + Y$ 的密度函数.
+
+*English*: Given two independent random variables $X,Y$, both are uniformly distributed $X \sim U(0,1),Y \sim U(0,1)$. What is the density function for  $Z = X + Y$ ?
+
+### 3-6
+
+*Chinese*: 设二维随机变量(X, Y)的联合密度函数如下,又设随机变量 $Z = X - Y$,求：
+
++ (1) $Z$的概率密度函数 $f_{Z}(z)$
++ (2) 条件密度函数 $f_{Y|X}(y|x)$
+
+$$f(x,y) = 3y,0 < x < y < 1$$
+$$f(x,y) = 0, \qquad otherwise$$
+
+*English*: Assume the joint density function of two dimensional as above, r.v. $(X,Y)$ is and define the random variable $Z = X - Y$.Find：
+
++ (1) the density function $f_{Z}(z)$ for $Z$;
++ (2) the conditional density function $f_{Y|X}(y|x)$
