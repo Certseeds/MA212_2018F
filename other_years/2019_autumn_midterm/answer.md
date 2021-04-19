@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-19 14:34:08
+ * @LastEditTime: 2021-04-20 01:09:03
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -249,6 +249,21 @@ $$f(x,y) = 0, \qquad otherwise$$
 + (1) Find the constant $k$.
 + (2) Find the joint distribution function $F(x,y)$for $(X,Y)$.
 + (3) Compute $P(0 < x \leq 1,0 < Y \leq 2)$
+
+*Answer*:
+
++ (1) 由
+
+$$k \int_{0}^{+ \infty}\int_{0}^{+ \infty}e^{-(3x+4y)}d_{x}d_{y} =k \int_{0}^{+ \infty}e^{-3x}d_{x}\int_{0}^{+ \infty}e^{-4y}d_{y} = \frac{k}{12} = 1$$ 解的 $k=12$
+
++ (2) when $X \leq 0 or Y \leq 0, F(x,y) = 0$,when $x>0,y>0$,then
+
+$$F(x,y) = 12 \int_{0}^{x}\int_{0}^{y}e^{-(3u+4v)}d_{v}d_{u}$$
+$$= 12 \int_{0}^{x}e^{-3u}d_{u}\int_{0}^{y}e^{-4v}d_{v} = (1-e^{-3u})(1-e^{-4y})$$
+
++ (3)
+
+$$P(0 < X \leq 1,0 < Y \leq 2) = F(1,2) = 1 - e^{-3} - e^{-8} + e^{-11} = 0.949$$
 
 #### 3-5
 
