@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-19 14:30:47
+ * @LastEditTime: 2021-04-19 14:34:08
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -179,7 +179,7 @@ $$P(B|A_{1})=0.9,P(B|A_{2})=0.7,P(B|A_{3})=0.5,P(B|A_{4})=0.2$$
 
 $$P(B) = \sum_{i=1}^{4} P(A_{i}) \cdot P(B|A_{i}) = \frac{4 \ast 0.9}{20}+\frac{8 \ast 0.7}{20}+\frac{7 \ast 0.5}{20}+\frac{1 \ast 0.2}{20} = 0.645$$
 
-### 3-2
+#### 3-2
 
 *Chinese*: 对以往数据分析结果表明,当机器调整得良好时,产品的合格率为 $0.9$; 而当机器发生某种故障时,产品的合格率为 $0.6$.每天早上机器开动时,机器调整良好的概率为 $0.95$.试求：已知某日早上的第一件产品是合格品时,机器调整得良好的概率.
 
@@ -197,7 +197,7 @@ $$P(B|A) = \frac{P(AB)}{P(A)} = \frac{P(B) \cdot P(A|B)}{P(B) \cdot P(A|B) + P(\
 
 $$P(B|A) = \frac{0.95 \ast 0.9}{0.95 \ast 0.9 + 0.05 \ast 0.6}$$
 
-### 3-3
+#### 3-3
 
 *Chinese*: 口袋中装有 $5$ 个球,分别编号为 $1,2,3,4,5$,从中任取 $3$ 个球,将取出的 $3$ 个球中的最大编号记为 $X$.
 
@@ -233,7 +233,7 @@ $$F(x) = P(X \leq 4) = P(X = 3) + P(X = 4) = 0.4, \qquad 4 \leq x < 5$$
 
 $$F(x) = P(X \leq 5) = P(X = 3) + P(X = 4)+ P(X = 5) = 1,  5 \leq x $$
 
-### 3-4
+#### 3-4
 
 *Chinese*: 设二维随机变量 $(X,Y)$的联合密度函数如下,试求
 
@@ -250,13 +250,13 @@ $$f(x,y) = 0, \qquad otherwise$$
 + (2) Find the joint distribution function $F(x,y)$for $(X,Y)$.
 + (3) Compute $P(0 < x \leq 1,0 < Y \leq 2)$
 
-### 3-5
+#### 3-5
 
 *Chinese*: 设随机变量 $(X,Y)$ 相互独立,且 $X \sim U(0,1),Y \sim U(0,1)$,求 $Z = X + Y$ 的密度函数.
 
 *English*: Given two independent random variables $X,Y$, both are uniformly distributed $X \sim U(0,1),Y \sim U(0,1)$. What is the density function for  $Z = X + Y$ ?
 
-### 3-6
+#### 3-6
 
 *Chinese*: 设二维随机变量(X, Y)的联合密度函数如下,又设随机变量 $Z = X - Y$,求：
 

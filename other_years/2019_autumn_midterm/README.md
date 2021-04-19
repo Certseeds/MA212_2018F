@@ -143,13 +143,13 @@ Part Three Questions and Answers (10 marks each question, in total 60 marks)
 
 *English*: A shooting team has $20$  shooters, of whom $4$ are in the first level,$8$ are in the second level, $7$ are in the third level, and $1$ is in the fourth level. The probability of each level of the shooters entering the competition through selection is $0.9, 0.7,0.5, 0.2$. Compute the probability that a randomly selected shooter could enter the competition.
 
-### 3-2
+#### 3-2
 
 *Chinese*: 对以往数据分析结果表明,当机器调整得良好时,产品的合格率为 $0.9$; 而当机器发生某种故障时,产品的合格率为 $0.6$.每天早上机器开动时,机器调整良好的概率为 $0.95$.试求：已知某日早上的第一件产品是合格品时,机器调整得良好的概率.
 
 *English*: According to the collected data analysis, the passing rate of their products is 0.9 when the machine is well adjusted; while the passing rate is 0.6 when the machine is malfunctioned. The machine starts every day in the morning with 0.95 probability that it is well adjusted. If the first product produced in the morning is qualified, what is the probability that the machine is well adjusted today?
 
-### 3-3
+#### 3-3
 
 *Chinese*: 口袋中装有 $5$ 个球,分别编号为 $1,2,3,4,5$,从中任取 $3$ 个球,将取出的 $3$ 个球中的最大编号记为 $X$.
 
@@ -161,7 +161,7 @@ Part Three Questions and Answers (10 marks each question, in total 60 marks)
 + (1) Find the frequency function of $X$.
 + (2) Find the cumulative distribution function of $X$.
 
-### 3-4
+#### 3-4
 
 *Chinese*: 设二维随机变量 $(X,Y)$的联合密度函数如下,试求
 
@@ -178,13 +178,13 @@ $$f(x,y) = 0, \qquad otherwise$$
 + (2) Find the joint distribution function $F(x,y)$for $(X,Y)$.
 + (3) Compute $P(0 < x \leq 1,0 < Y \leq 2)$
 
-### 3-5
+#### 3-5
 
 *Chinese*: 设随机变量 $(X,Y)$ 相互独立,且 $X \sim U(0,1),Y \sim U(0,1)$,求 $Z = X + Y$ 的密度函数.
 
 *English*: Given two independent random variables $X,Y$, both are uniformly distributed $X \sim U(0,1),Y \sim U(0,1)$. What is the density function for  $Z = X + Y$ ?
 
-### 3-6
+#### 3-6
 
 *Chinese*: 设二维随机变量(X, Y)的联合密度函数如下,又设随机变量 $Z = X - Y$,求：
 
