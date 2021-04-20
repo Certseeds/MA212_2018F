@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-04-17 14:06:24
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-04-20 01:09:03
+ * @LastEditTime: 2021-04-20 09:31:03
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -263,13 +263,25 @@ $$= 12 \int_{0}^{x}e^{-3u}d_{u}\int_{0}^{y}e^{-4v}d_{v} = (1-e^{-3u})(1-e^{-4y})
 
 + (3)
 
-$$P(0 < X \leq 1,0 < Y \leq 2) = F(1,2) = 1 - e^{-3} - e^{-8} + e^{-11} = 0.949$$
+$$P(0 < X \leq 1,0 < Y \leq 2) = F(1,2) = 1 - e^{-3} - e^{-8} + e^{-11} \approx 0.949$$
 
 #### 3-5
 
 *Chinese*: 设随机变量 $(X,Y)$ 相互独立,且 $X \sim U(0,1),Y \sim U(0,1)$,求 $Z = X + Y$ 的密度函数.
 
 *English*: Given two independent random variables $X,Y$, both are uniformly distributed $X \sim U(0,1),Y \sim U(0,1)$. What is the density function for  $Z = X + Y$ ?
+
+由卷积公式得
+
+$$f_{Z}(z) = \int_{-\infty}^{+\infty}f_{X}(x)f_{Y}(z-x)dx$$
+且取值区域如图
+
+![y<x<y+1,0<y<1](./image/3_5_3.gif)
+则,
+
+$$f_{Z}(z) = \int_{0}^{z}1dx = z, \qquad 0 \leq z < 1$$
+$$f_{Z}(z) = \int_{z-1}^{1}1dx = 2-z, \qquad 1 \leq z < 2$$
+$$f_{Z}(z) = 0, \qquad otherwise$$
 
 #### 3-6
 
@@ -285,3 +297,16 @@ $$f(x,y) = 0, \qquad otherwise$$
 
 + (1) the density function $f_{Z}(z)$ for $Z$;
 + (2) the conditional density function $f_{Y|X}(y|x)$
+
+*Answer*:
+
++ (1) when $-1 < z < 0$
+$$F_{Z}(z)=P(X - Y \leq z) = \iint\limits_{x \leq y+z}f(x,y)dxdy = \int_{-z}^{1}dy\int_{0}^{y+z}3ydx = 1+\frac{3}{2}z -\frac{1}{2}z^{3}$$
+
++ (2) when $0 < x < 1$,$f_{X}(x) = \int_{-\infty}^{+\infty}f(x,y)dy = \int_{x}^{1}f(x,y)dy = \frac{3}{2}(1-x^{2})$
+
+otherwise, $f_{X}(x) =0$.
+
+So, when 0 < x < 1,then, $f_{Y|X}(y|x) = \frac{f(x,y)}{f_{X}(x)} = \frac{2y}{1-x^{2}}$
+
+otherwise, $f_{Y|X}(y|x)=0$
